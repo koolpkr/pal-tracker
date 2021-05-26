@@ -1,4 +1,4 @@
-aapplications:
+applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
