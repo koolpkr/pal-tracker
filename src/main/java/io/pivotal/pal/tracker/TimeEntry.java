@@ -46,6 +46,7 @@ public class TimeEntry {
         return id == timeEntry.id && projectId == timeEntry.projectId && userId == timeEntry.userId && hours == timeEntry.hours && date.equals(timeEntry.date);
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(id, projectId, userId, date, hours);
